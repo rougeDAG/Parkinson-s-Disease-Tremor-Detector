@@ -1,6 +1,6 @@
 # 🧠 **Parkinson’s Tremor Detection System**
 
-Developed by rougeDAG(https://github.com/rougeDAG)
+Developed by [rougeDAG](https://github.com/rougeDAG/)
   
 **Under the guidance of:** Dr. Gugapriya, School of Electronics Engineering, VIT Chennai  
 
