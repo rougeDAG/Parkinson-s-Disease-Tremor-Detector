@@ -7,7 +7,7 @@ Developed by [Hari Sai Senthil Kumar](https://github.com/rougeDAG)
 ---
 
 ## 📜 **Table of Contents**
-- [Overview](#[overview](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-overview))  
+- [Overview](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-overview) 
 - [Problem Statement](#problem-statement)  
 - [Proposed Solution](#proposed-solution)  
 - [Hardware Design & Circuit](#hardware-design--circuit)  
