@@ -1,23 +1,23 @@
 # 🧠 **Parkinson’s Tremor Detection System**
 
-Developed by [Hari Sai Senthil Kumar](https://github.com/rougeDAG)  
-**Roll No:** 24BLC1108  
+Developed by rougeDAG(https://github.com/rougeDAG)
+  
 **Under the guidance of:** Dr. Gugapriya, School of Electronics Engineering, VIT Chennai  
 
 ---
 
 ## 📜 **Table of Contents**
 - [Overview](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-overview) 
-- [Problem Statement](#problem-statement)  
-- [Proposed Solution](#proposed-solution)  
-- [Hardware Design & Circuit](#hardware-design--circuit)  
-- [Working Principle](#working-principle)  
-- [Algorithm Flow](#algorithm-flow)  
-- [ESP32 Code](#esp32-code)  
-- [Bill of Materials](#bill-of-materials)  
-- [Results](#results)  
-- [Future Scope](#future-scope)  
-- [References](#references)  
+- [Problem Statement](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-problem-statement)  
+- [Proposed Solution](http://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-proposed-solution)
+- [Hardware Design & Circuit](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#%EF%B8%8F-hardware-design--circuit)
+- [Working Principle](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-working-principle)
+- [Algorithm Flow](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-algorithm-flow)
+- [ESP32 Code](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-esp32-code-snippet)
+- [Bill of Materials](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-bill-of-materials)
+- [Results](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-results)
+- [Future Scope](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-future-scope)
+- [References](https://github.com/rougeDAG/Parkinson-s-Disease-Tremor-Detector?tab=readme-ov-file#-references)
 
 ---
 
@@ -50,6 +50,8 @@ The proposed system uses the **MPU6050** to capture motion data, which the **ESP
 | LCD SCL | GPIO 23 | I2C Clock |
 | Buzzer | GPIO 5 | Output alert |
 | Power | 3.3V & GND | Power lines |
+<img width="900" height="444" alt="image" src="https://github.com/user-attachments/assets/4d6a46b7-4b76-4e77-8939-d453e738c9e9" />
+
 
 ---
 
@@ -64,8 +66,10 @@ The proposed system uses the **MPU6050** to capture motion data, which the **ESP
 
 ---
 
-## 🔁 **Algorithm Flow**
+## 🔁 **Algorithm Flow **
 **Input → MPU6050 Data → FFT Processing → Frequency Detection → Tremor Validation → Output (LCD + Buzzer)**
+<img width="472" height="557" alt="image" src="https://github.com/user-attachments/assets/c9f8019e-3433-4fac-b0b3-f77a5051687e" />
+
 
 ---
 
